@@ -27,6 +27,7 @@ _dostuff_complete()
   else
     opts=`arg.py ${prev}`
     COMPREPLY=( $(compgen -W "${opts}" -- "${cur}") )
+    return 0
   fi
 
 }
