@@ -1,8 +1,5 @@
-
-#!/bin/sh
-
-# script sets up environment variables so you can run the daemons
-# from within this repository, good for development
+# source this file to set up the tab completion so you can run
+# the scripts from within this repository
 
 export PYTHONPATH=./
 export PATH=./bin:$PATH
